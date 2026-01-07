@@ -108,7 +108,7 @@ The drone mission follows these steps:
   7-Mission logic is implemented using Python with MAVSDK.
 
 
-
+---
 
 ## Mission Logic
 
