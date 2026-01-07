@@ -106,3 +106,48 @@ The drone mission follows these steps:
   6-Return to launch automatically
 
   7-Mission logic is implemented using Python with MAVSDK.
+
+
+
+
+## Mission Logic
+
+The autonomous mission follows a *patrol → detect → investigate → report* loop:
+
+1. **Define Patrol Block (Area Assignment)**
+   - The drone is deployed with a specific border segment / block to cover (geofence-style area).
+   - Patrol coverage is planned as a sweep pattern (e.g., lawnmower/grid) to ensure full visibility.
+
+2. **Arm & Takeoff**
+   - Drone arms and climbs to a safe patrol altitude.
+
+3. **Camera Initialization & Adjustment**
+   - The gimbal/thermal camera is set to a surveillance angle (typically downward pitch).
+   - Camera settings can be adjusted dynamically during flight depending on altitude and target distance.
+
+4. **Autonomous Border Survey (Patrol Mode)**
+   - Drone flies the patrol route across the assigned block.
+   - Thermal + visual streams are continuously monitored in ROS 2 perception pipelines.
+
+5. **Suspicious Activity Detection**
+   - If suspicious heat signatures or movement are detected (individuals, vehicles, or hot objects),
+     the drone marks the location and triggers an alert event.
+
+6. **Investigation / Inspection Mode**
+   - Drone transitions from patrol to investigation behavior:
+     - slows down and stabilizes position,
+     - descends to an inspection altitude (optional),
+     - performs an orbit (or loiter) around the detected target to collect evidence.
+   - Captures thermal imagery + optional RGB snapshots/video and timestamps.
+
+7. **Report & Handover**
+   - Detection metadata is published to ROS 2 (target type, confidence, GPS location).
+   - Evidence is logged for operators/border guards to verify before ground interaction.
+
+8. **Resume Patrol or Return-To-Launch (RTL)**
+   - If targets remain: mission returns to patrol and continues coverage.
+   - If mission time/battery limits reached: drone performs RTL automatically.
+
+Mission logic is implemented using **Python + MAVSDK** for flight control,
+while **ROS 2** handles perception, target classification, and event reporting.
+
