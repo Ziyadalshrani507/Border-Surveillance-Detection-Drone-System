@@ -1,7 +1,7 @@
 # 🛡️ Border Surveillance Detection Drone System
 
 An autonomous **border surveillance drone simulation** built using **PX4**, **Gazebo**, **ROS 2**, and **thermal imaging**.  
-The system simulates a UAV capable of detecting and inspecting heat-emitting targets such as humans and rockets using a thermal camera.
+This project simulates a border surveillance and detection drone system aimed at improving security and situational awareness in restricted border areas. Autonomous drones patrol predefined zones, detect suspicious activities, and provide real-time alerts to operators through a monitoring system.
 
 ---
 
