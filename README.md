@@ -54,7 +54,7 @@ This project is intended for **research, education, and prototyping** and can be
 ### World
 - Custom Gazebo world representing a border environment
 - Includes terrain, human models, and rocket-like objects
-
+---
 ### Thermal Properties
 
 Thermal targets are simulated using temperature values.
@@ -77,7 +77,7 @@ Thermal targets are simulated using temperature values.
 -Gimbal-stabilized thermal camera
 
 -Automatic Return-To-Launch (RTL)
-
+---
 
 ## Thermal Camera Pipeline
 
