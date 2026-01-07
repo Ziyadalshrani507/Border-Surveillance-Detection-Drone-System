@@ -55,16 +55,16 @@ This project is intended for **research, education, and prototyping** and can be
 ### World
 - Custom Gazebo world representing a border environment
 - Includes terrain, human models, and rocket-like objects
----
+
 ### Thermal Properties
 
 Thermal targets are simulated using temperature values.
 
-**Human model temperature **
-###xml
-<thermal>
-  <temperature>310</temperature>
-</thermal>
+**Human model**
+``xml
+&lt;thermal&gt;
+  &lt;temperature&gt;310&lt;/temperature&gt;
+&lt;/thermal&gt;
 ---
 
 ##Drone Capabilities
