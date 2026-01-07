@@ -151,3 +151,11 @@ The autonomous mission follows a *patrol → detect → investigate → report* 
 Mission logic is implemented using **Python + MAVSDK** for flight control,
 while **ROS 2** handles perception, target classification, and event reporting.
 
+---
+
+## Running the System
+
+#1. Start PX4 and Gazebo
+"PX4_GZ_WORLD=baylands make px4_sitl gz_x500_gimbal
+"
+
