@@ -153,9 +153,35 @@ while **ROS 2** handles perception, target classification, and event reporting.
 
 ---
 
-## Running the System
+##  Running the System
 
-#1. Start PX4 and Gazebo
-"PX4_GZ_WORLD=baylands make px4_sitl gz_x500_gimbal
-"
+### 1- Start PX4 and Gazebo
+```bash
+PX4_GZ_WORLD=baylands make px4_sitl gz_x500_gimbal
+```
+### 2-Run the Mission Script
+```bash
+python3 projectdd.py
+```
+### 3-Bridge Thermal Camera to ROS 2
+```bash
+ros2 run ros_gz_bridge parameter_bridge \
+/world/baylands/model/x500_gimbal_0/link/camera_link/sensor/thermal_camera/image@sensor_msgs/msg/Image@gz.msgs.Image
+```
+### 4- Visualize Thermal Feed
+```bash
+rviz2
+```
+---
+## Future Work
+
+-Automatic thermal target detection algorithms
+
+-AI-based classification of detected objects
+
+-Multi-drone coordination
+
+-Real UAV hardware deployment
+
+-Sensor fusion (RGB + thermal + LiDAR)
 
