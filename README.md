@@ -27,7 +27,7 @@ This project is intended for **research, education, and prototyping** and can be
 ## 🧠 System Architecture
 
 
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/35ea4cd5-eec6-4231-81fc-73f6536b6d93" />
 
 ---
 
@@ -83,13 +83,7 @@ This project is intended for **research, education, and prototyping** and can be
 
 ## Thermal Camera Pipeline
 
-Gazebo Thermal Sensor
-        ↓
-   ros_gz_bridge
-        ↓
-   ROS 2 Image Topic
-        ↓
-   RViz2 / Processing Node
+![Uploading image.png…]()
 
 ##thermal image topic
 
