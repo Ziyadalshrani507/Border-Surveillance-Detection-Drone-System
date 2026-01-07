@@ -15,11 +15,12 @@ This project is intended for **research, education, and prototyping** and can be
 
 ## 🎯 Objectives
 
-- Autonomous drone patrol using GPS-based waypoints  
-- Detect humans and high-temperature objects using thermal imaging  
-- Perform orbit and inspection maneuvers around detected targets  
-- Integrate PX4 flight control with ROS 2 perception pipelines  
-- Simulate realistic border surveillance scenarios  
+- Detect and monitor **smuggling attempts** by individuals, vehicles, or any object that emits heat using thermal imaging  
+- Perform **autonomous drone patrols** along predefined GPS-based border routes  
+- Conduct **inspection and investigation maneuvers** (hovering, orbiting, close-range observation) before border guard or human intervention  
+- Integrate **PX4 flight control** with **ROS 2–based perception and sensor processing pipelines**  
+- Simulate **realistic border surveillance scenarios**, including night operations and low-visibility conditions  
+- Enable **early threat detection and situational awareness** to reduce human risk and response time  
 
 ---
 
