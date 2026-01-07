@@ -67,7 +67,7 @@ This project is intended for **research, education, and prototyping** and can be
 -&lt;/thermal&gt;
 
 ---
-##Drone Capabilities
+## Drone Capabilities
 
 -Autonomous takeoff and landing
 
@@ -78,6 +78,7 @@ This project is intended for **research, education, and prototyping** and can be
 -Gimbal-stabilized thermal camera
 
 -Automatic Return-To-Launch (RTL)
+
 ---
 
 ## Thermal Camera Pipeline
