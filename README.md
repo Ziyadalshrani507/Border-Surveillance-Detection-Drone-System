@@ -86,12 +86,10 @@ This project is intended for **research, education, and prototyping** and can be
 
 ![Uploading image.png…]()
 
-##thermal image topic
 
-###/world/baylands/model/x500_gimbal_0/link/camera_link/sensor/thermal_camera/image
 ---
 
-##Mission Logic
+## Mission Logic
 
 The drone mission follows these steps:
 
