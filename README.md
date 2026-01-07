@@ -58,13 +58,13 @@ This project is intended for **research, education, and prototyping** and can be
 
 ### Thermal Properties
 
-Thermal targets are simulated using temperature values.
----
+-Thermal targets are simulated using temperature values.
+
 **Human model**
-xml
-&lt;thermal&gt;
-  &lt;temperature&gt;310&lt;/temperature&gt;
-&lt;/thermal&gt;
+-xml
+-&lt;thermal&gt;
+ - &lt;temperature&gt;310&lt;/temperature&gt;
+-&lt;/thermal&gt;
 
 ---
 ##Drone Capabilities
