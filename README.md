@@ -27,6 +27,7 @@ This project is intended for **research, education, and prototyping** and can be
 ## 🧠 System Architecture
 
 
+![Uploading image.png…]()
 
 ---
 
