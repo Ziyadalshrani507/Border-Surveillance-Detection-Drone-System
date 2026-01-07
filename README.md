@@ -98,16 +98,16 @@ Gazebo Thermal Sensor
 
 The drone mission follows these steps:
 
-Arm and take off to a predefined altitude
+  1-Arm and take off to a predefined altitude
 
-Navigate to mission waypoints
+  2-Navigate to mission waypoints
 
-Descend for close inspection when reaching a target
+  3-Descend for close inspection when reaching a target
 
-Orbit the target for surveillance
+  4-Orbit the target for surveillance
 
-Continue to the next target
+  5-Continue to the next target
 
-Return to launch automatically
+  6-Return to launch automatically
 
-Mission logic is implemented using Python with MAVSDK.
+  7-Mission logic is implemented using Python with MAVSDK.
