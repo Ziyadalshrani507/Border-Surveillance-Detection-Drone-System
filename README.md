@@ -92,4 +92,22 @@ Gazebo Thermal Sensor
 ##thermal image topic
 
 ###/world/baylands/model/x500_gimbal_0/link/camera_link/sensor/thermal_camera/image
+---
 
+##Mission Logic
+
+The drone mission follows these steps:
+
+Arm and take off to a predefined altitude
+
+Navigate to mission waypoints
+
+Descend for close inspection when reaching a target
+
+Orbit the target for surveillance
+
+Continue to the next target
+
+Return to launch automatically
+
+Mission logic is implemented using Python with MAVSDK.
