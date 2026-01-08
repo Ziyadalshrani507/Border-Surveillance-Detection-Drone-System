@@ -1,10 +1,10 @@
-# 🛡️ Border Surveillance Detection Drone System
+#  Border Surveillance Detection Drone System
 
 This project simulates a border surveillance and detection drone system aimed at improving security and situational awareness in restricted border areas. Autonomous drones patrol predefined zones, detect suspicious activities, and provide real-time alerts to operators through a monitoring system.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Border Surveillance Detection Drone System** is a fully simulated autonomous UAV platform designed for border monitoring scenarios.  
 It integrates flight control, perception, and mission logic to demonstrate how a surveillance drone can patrol, detect thermal targets, and react autonomously.
@@ -13,7 +13,7 @@ This project is intended for **research, education, and prototyping** and can be
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Detect and monitor **smuggling attempts** by individuals, vehicles, or any object that emits heat using thermal imaging  
 - Perform **autonomous drone patrols** along predefined GPS-based border routes  
@@ -24,7 +24,7 @@ This project is intended for **research, education, and prototyping** and can be
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 ![Uploading image.png…]()
 
@@ -32,7 +32,7 @@ This project is intended for **research, education, and prototyping** and can be
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Flight & Simulation
 - PX4 Autopilot (SITL)
@@ -51,7 +51,7 @@ This project is intended for **research, education, and prototyping** and can be
 
 ---
 
-## 🌍 Simulation Environment
+##  Simulation Environment
 
 ### World
 - Custom Gazebo world representing a border environment
