@@ -184,4 +184,11 @@ rviz2
 -Real UAV hardware deployment
 
 -Sensor fusion (RGB + thermal + LiDAR)
+---
+## 🎥 Drone System Demo Video
+
+This video demonstrates the autonomous patrol, detection, and investigation behaviors of the border surveillance drone system in simulation using MAVSDK and PX4.
+
+[![Watch the demo](https://img.youtube.com/vi/y85ls06JSGA/0.jpg)](https://youtu.be/y85ls06JSGA)
+
 
